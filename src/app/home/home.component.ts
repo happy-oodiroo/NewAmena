@@ -10,10 +10,10 @@ export interface card {
 })
 export class HomeComponent {
   cards : card[]= [
-    {src:"../../assets/icon1.svg", title:"الرخص والشهادات "},
-    {src:"../../assets/icon2.svg", title:"المشهد الحضري"},
-    {src:"../../assets/icon1.svg", title:"المنح والعقارات"},
-    {src:"../../assets/icon1.svg", title:"بلاغات وشكاوي 940"},
-    {src:"../../assets/icon1.svg", title:"الإستعلامات"},
+    {src:"./assets/icon1.svg", title:"الرخص والشهادات "},
+    {src:"./assets/icon2.svg", title:"المشهد الحضري"},
+    {src:"./assets/icon1.svg", title:"المنح والعقارات"},
+    {src:"./assets/icon1.svg", title:"بلاغات وشكاوي 940"},
+    {src:"./assets/icon1.svg", title:"الإستعلامات"},
   ]
 }

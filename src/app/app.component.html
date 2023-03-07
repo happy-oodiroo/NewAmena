@@ -4,17 +4,17 @@
 
 	<mat-sidenav #sidenav mode="over">
 		<!-- <label>My Application</label> -->
-        <img src="../../assets/شعار الأمانه افقي.svg"/> 
-    <hr/>   
+        <img src="./assets/شعار الأمانه افقي.svg"/>
+    <hr/>
 		<nav>
 			<a routerLink="home"      (click)="clickHandler()" routerLinkActive="active">الرئيسية</a>
 			<a routerLink="page1"     (click)="clickHandler()" routerLinkActive="active">الخدمات الالكترونية</a>
 			<a routerLink="page2"     (click)="clickHandler()" routerLinkActive="active"> الخدمات</a>
 			<a routerLink="page3"   (click)="clickHandler()" routerLinkActive="active">الدعم والمساعدة</a>
-		</nav> 
+		</nav>
     <hr />
     <div aria-label="user selection" [matMenuTriggerFor]="menu" class="userMenuMobile">
-        <img matChipAvatar src="../../assets/avatar.svg" alt="Photo user"/>
+        <img matChipAvatar src="./assets/avatar.svg" alt="Photo user"/>
         <span>
         اسم المستخدم
         <mat-icon>keyboard_arrow_down</mat-icon>
@@ -27,7 +27,7 @@
 			<header>
 				<mat-icon (click)="sidenav.toggle()">menu</mat-icon>
 				<!-- label>My Application</label> -->
-                <img src="../../assets/شعار الأمانه افقي.svg"/> 
+                <img src="./assets/شعار الأمانه افقي.svg"/>
 
         <nav>
           <a routerLink="home"    routerLinkActive="active">الرئيسية</a>
@@ -36,7 +36,7 @@
           <a routerLink="page3" routerLinkActive="active">الدعم والمساعدة</a>
         </nav>
         <div aria-label="user selection" [matMenuTriggerFor]="menu" class="userMenu">
-          <img matChipAvatar src="../../assets/avatar.svg" alt="Photo user"/>
+          <img matChipAvatar src="./assets/avatar.svg" alt="Photo user"/>
           <span>
           اسم المستخدم
           <mat-icon>keyboard_arrow_down</mat-icon>
@@ -53,20 +53,20 @@
         <span>موظف</span>
         <mat-divider style="width:90%; margin: 10px auto;"></mat-divider>
         <button mat-menu-item><img src="./assets/logoutIcon.svg"/>Log out</button>
-        </mat-menu>       
+        </mat-menu>
       </header>
       <div class="headerContent">
         <h1>
-          بوابة 
+          بوابة
           <br/>
           الخدمات الإلكترونية</h1>
-        <p>يوفر نظام الخدمات الالكترونية جميع الخدمات التي يحتاجها المواطنين في 
+        <p>يوفر نظام الخدمات الالكترونية جميع الخدمات التي يحتاجها المواطنين في
           <br/>
           مدينة الرياض الذي يوفر الوقت والجهد والمعاملات الورقية التقليدية،
            <br/>
           ما عليك سوى اختيار الخدمة</p>
       </div>
-      
+
       <div class="headerBottom">
         <div class="search">
           <mat-icon>search</mat-icon>
@@ -81,7 +81,7 @@
         </mat-tab-group>
       </div>
 		</mat-toolbar>
-    
+
     <section>
       <router-outlet></router-outlet>
     </section>
